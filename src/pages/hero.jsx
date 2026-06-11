@@ -3,7 +3,7 @@ import '../App.css'
 import Button from '../Components/button'
 import info_bg from '../images/info-bg.jpg'
 import SDG_icon from '../images/SDG_icon.png'
-import { BiRightArrow, BiSolidRightArrow } from 'react-icons/bi'
+import { BiSolidRightAlt } from 'react-icons/bi'
 import { Link } from 'react-router-dom'
 
 const Hero = () => {
@@ -64,7 +64,7 @@ btncolor="#F36D25"
 bgradius="32px"
 >
 Learn More
-<BiSolidRightArrow className='info_arrow' />
+<BiSolidRightAlt className='info_arrow' />
 
 </Button>
 </Link>

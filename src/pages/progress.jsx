@@ -7,7 +7,7 @@ import { FaChartLine, FaLightbulb } from "react-icons/fa6";
 import { Col, Row } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import Button from "../Components/button";
-import { BiSolidRightArrow } from "react-icons/bi";
+import { BiSolidRightAlt } from "react-icons/bi";
 
 const Progress = () => {
   return (
@@ -174,7 +174,7 @@ const Progress = () => {
               bgradius="32px"
             >
               Back to Targets?
-              <BiSolidRightArrow className="info_arrow" />
+              <BiSolidRightAlt className="info_arrow" />
             </Button>
           </Link>
           </Col>
@@ -198,7 +198,7 @@ const Progress = () => {
               bgradius="32px"
             >
               Actions Taken
-              <BiSolidRightArrow className="info_arrow" />
+              <BiSolidRightAlt className="info_arrow" />
             </Button>
           </Link>
          </Col>

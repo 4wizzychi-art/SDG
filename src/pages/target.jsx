@@ -9,7 +9,7 @@ import { TbHeartRateMonitor } from 'react-icons/tb'
 import { FaBookReader } from 'react-icons/fa'
 import { IoIosWater } from 'react-icons/io'
 import { LiaIndustrySolid } from 'react-icons/lia'
-import { BiSolidRightArrow } from 'react-icons/bi'
+import { BiSolidRightAlt } from 'react-icons/bi'
 import Button from '../Components/button'
 import { Link } from 'react-router-dom'
 
@@ -172,7 +172,7 @@ btncolor="#F36D25"
 bgradius="32px"
 >
 Global Progress?
-<BiSolidRightArrow className='info_arrow' />
+<BiSolidRightAlt className='info_arrow' />
 
 </Button>
 </Link>
