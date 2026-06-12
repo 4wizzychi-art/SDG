@@ -2,16 +2,15 @@ import React from 'react'
 import Carding from '../Components/carding'
 import target_bg from '../images/target_bg.jpg'
 import { Row, Col } from 'react-bootstrap'
-import { FaBowlFood, FaMillSign } from 'react-icons/fa6'
-import { GiFamilyTree } from 'react-icons/gi'
+import { FaBowlFood } from 'react-icons/fa6'
 import { MdEnergySavingsLeaf, MdFamilyRestroom, MdOutlineWorkspaces } from 'react-icons/md'
 import { TbHeartRateMonitor } from 'react-icons/tb'
 import { FaBookReader } from 'react-icons/fa'
 import { IoIosWater } from 'react-icons/io'
 import { LiaIndustrySolid } from 'react-icons/lia'
-import { BiSolidRightAlt } from 'react-icons/bi'
 import Button from '../Components/button'
 import { Link } from 'react-router-dom'
+import { BiSolidRightArrowAlt } from 'react-icons/bi'
 
 const Target = () => {
   return (
@@ -172,7 +171,7 @@ btncolor="#F36D25"
 bgradius="32px"
 >
 Global Progress?
-<BiSolidRightAlt className='info_arrow' />
+<BiSolidRightArrowAlt className='info_arrow' />
 
 </Button>
 </Link>

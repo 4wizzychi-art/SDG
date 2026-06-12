@@ -1,8 +1,7 @@
 import React from 'react'
 import Hero from './pages/hero'
-import carding from './Components/carding'
 import Target from './pages/target'
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import {  Route, Routes } from 'react-router-dom'
 import Progress from './pages/progress'
 import Action from './pages/action'
 

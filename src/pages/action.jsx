@@ -1,12 +1,19 @@
 import React from 'react'
+import Button from '../Components/button'
+import { Link } from 'react-router-dom'
+import { BiSolidRightArrowAlt } from 'react-icons/bi'
 
 const Action = () => {
   return (
-    <div>
+    <div style={{
+        backgroundColor:"black"
+    }}>
 
 <section className="container py-5">
 
-    <h2 className="text-center mb-5">
+    <h2 className="text-center mb-5" style={{
+        color:"white"
+    }}>
         How You Can Contribute
     </h2>
 
@@ -59,7 +66,9 @@ const Action = () => {
 
     <div className="container">
 
-        <h2 className="text-center mb-5">
+        <h2 className="text-center mb-5"  style={{
+        color:"white"
+    }}>
             Partner Organizations
         </h2>
 
@@ -103,15 +112,19 @@ const Action = () => {
 
     <div className="container text-center">
 
-        <h2>Stay Updated</h2>
+        <h2  style={{
+        color:"white"
+    }}>Stay Updated</h2>
 
-        <p>
+        <p  style={{
+        color:"white"
+    }}>
             Receive SDG 9 news and innovation updates.
         </p>
 
         <div className="row justify-content-center">
 
-            <div className="col-lg-6">
+            <div className="col-lg-6 mb-4">
 
                 <div className="input-group">
 
@@ -136,7 +149,25 @@ const Action = () => {
     </div>
 
 </section>
+    <Link to="/progress" className='align-items-center d-flex justify-content-center py-5'
+    style={{
+      textDecorationLine:"none"
+    }}
+    >
+<Button  className="info_btn" style={{
+  // backgroundColor:"white",
+  color:"#F36D25",
+}}
+fontsize="20px"
+padding="9px 50px"
+btncolor="#F36D25"
+bgradius="32px"
+>
+Back to Global Progress?
+<BiSolidRightArrowAlt className='info_arrow' />
 
+</Button>
+</Link>
 <section className="py-5 bg-light">
 
     <div className="container text-center">

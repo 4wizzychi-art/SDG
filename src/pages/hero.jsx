@@ -3,8 +3,8 @@ import '../App.css'
 import Button from '../Components/button'
 import info_bg from '../images/info-bg.jpg'
 import SDG_icon from '../images/SDG_icon.png'
-import { BiSolidRightAlt } from 'react-icons/bi'
 import { Link } from 'react-router-dom'
+import { BiSolidRightArrowAlt } from 'react-icons/bi'
 
 const Hero = () => {
   return (
@@ -25,10 +25,10 @@ const Hero = () => {
 }}>
 
 <div className='container d-flex flex-column align-items-center'>
-  <img src={SDG_icon} alt="image" className='img-fluid' style=
+  <img src={SDG_icon} alt="sdg" className='img-fluid' style=
   {{
-width:"20%",
-borderRadius:"60%",
+width:"21%",
+borderRadius:"0%",
 height:"auto",
 // padding:"0px 20px"
 }} />
@@ -64,7 +64,7 @@ btncolor="#F36D25"
 bgradius="32px"
 >
 Learn More
-<BiSolidRightAlt className='info_arrow' />
+<BiSolidRightArrowAlt className='info_arrow' />
 
 </Button>
 </Link>
