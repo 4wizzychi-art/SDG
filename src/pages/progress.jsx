@@ -1,5 +1,4 @@
 import React from "react";
-import progress_bg from "../images/progress_bg.jpg";
 import Broadband from "../Components/broadband";
 import CountUp from "react-countup";
 import Carding from "../Components/carding";
