@@ -7,7 +7,7 @@ import {
   ResponsiveContainer
 } from "recharts";
 
-function broadband() {
+function Broadband() {
   const data = [
     { region: "Developed", coverage: 95 },
     { region: "Developing", coverage: 80 },
@@ -17,13 +17,21 @@ function broadband() {
   return (
     <ResponsiveContainer width="100%" height={400}>
       <BarChart data={data}>
-        <XAxis dataKey="region" />
-        <YAxis />
+        <XAxis
+          dataKey="region"
+          stroke="#fff"
+        />
+        <YAxis
+          stroke="#fff"
+        />
         <Tooltip />
-        <Bar dataKey="coverage" />
+        <Bar
+          dataKey="coverage"
+          fill="#F36D25"
+        />
       </BarChart>
     </ResponsiveContainer>
   );
 }
 
-export default broadband;
+export default Broadband;

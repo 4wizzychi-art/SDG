@@ -13,7 +13,7 @@ const Progress = () => {
   return (
     <div
       style={{
-        backgroundImage: `url(${[progress_bg]})`,
+backgroundColor:"black",
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
@@ -25,7 +25,7 @@ const Progress = () => {
     >
       <div className="container">
         <h1
-          className="align-items-center d-flex justify-content-center mb-5"
+          className="align-items-center d-flex justify-content-center mb-5 pt-4"
           style={{
             fontSize: "50px",
             color: "white",
@@ -119,6 +119,46 @@ const Progress = () => {
           </div>
         </div>
 
+
+        <div className="text-center py-5">
+  <h2 style={{ color: "#F36D25" }}>Why These Numbers Matter</h2>
+
+  <p
+    className="mx-auto"
+    style={{
+      maxWidth: "900px",
+      color: "white",
+      fontSize: "18px",
+      lineHeight: "1.8",
+    }}
+  >
+    Access to reliable internet infrastructure is a key driver of innovation,
+    education, and economic growth. Although global connectivity has improved
+    significantly over the last decade, billions of people still remain
+    disconnected from the digital world. This digital divide limits access to
+    online education, healthcare services, employment opportunities, and
+    financial inclusion.
+  </p>
+
+  <p
+    className="mx-auto"
+    style={{
+      maxWidth: "900px",
+      color: "white",
+      fontSize: "18px",
+      lineHeight: "1.8",
+    }}
+  >
+    The challenge is particularly severe in Least Developed Countries (LDCs),
+    where internet penetration rates remain far below the global average.
+    Expanding broadband infrastructure and making internet access affordable
+    are essential steps toward achieving Sustainable Development Goal 9:
+    Industry, Innovation, and Infrastructure.
+  </p>
+</div>
+        
+
+
         <Broadband className="align-items-center d-flex justify-content-center" />
         <Row className="mt-5">
           <Col md={6}>
@@ -152,7 +192,72 @@ const Progress = () => {
           </Col>
         </Row>
 
+
+<section className="py-5">
+  <div className="container">
+    <h2
+      className="text-center mb-4"
+      style={{ color: "#F36D25" }}
+    >
+      Key Takeaways
+    </h2>
+
+    <ul
+      style={{
+        color: "white",
+        fontSize: "18px",
+        lineHeight: "2",
+      }}
+    >
+      <li>
+        Internet connectivity has reached 68% globally, but billions remain
+        excluded.
+      </li>
+
+      <li>
+        Least Developed Countries continue to face major infrastructure gaps.
+      </li>
+
+      <li>
+        Increased investment in research and development drives innovation and
+        industrial growth.
+      </li>
+
+      <li>
+        Closing the digital divide is critical for achieving SDG 9 and ensuring
+        inclusive economic development.
+      </li>
+
+      <li>
+        Strong infrastructure creates opportunities for education, employment,
+        healthcare, and entrepreneurship.
+      </li>
+    </ul>
+  </div>
+</section>
         
+
+<section className="py-5 text-center">
+  <h2 style={{ color: "#F36D25" }}>
+    Building a Connected Future
+  </h2>
+
+  <p
+    className="mx-auto"
+    style={{
+      maxWidth: "900px",
+      color: "white",
+      fontSize: "18px",
+      lineHeight: "1.8",
+    }}
+  >
+    Achieving SDG 9 requires collaboration between governments, businesses,
+    researchers, and individuals. Investments in digital infrastructure,
+    innovation, and sustainable industries can help bridge connectivity gaps
+    and create opportunities for millions of people around the world.
+  </p>
+</section>
+
         <Row className=" g-3">
           <Col md={6}>
           <Link

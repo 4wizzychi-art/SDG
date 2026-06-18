@@ -156,6 +156,120 @@ const Target = () => {
 </div>
 </div>
     </div>
+
+<div className="container py-5">
+  <div className="text-center mb-5">
+    <h2 className="fw-bold"  style={{
+        color:"white"
+      }}>Why These Targets Matter</h2>
+    <p className="lead"  style={{
+        color:"white"
+      }}>
+      The targets of SDG 9 are designed to create a world where innovation,
+      industry, and infrastructure work together to improve lives and drive
+      sustainable economic growth.
+    </p>
+  </div>
+
+  <Row className="g-4">
+    <Col lg={4} md={6}>
+      <div className="h-100 p-4 shadow-sm rounded bg-light">
+        <h4>🏗️ Strong Infrastructure</h4>
+        <p>
+          Roads, bridges, internet networks, electricity systems, and transport
+          facilities form the backbone of economic development. Reliable
+          infrastructure allows businesses to grow, improves access to
+          education and healthcare, and connects communities to opportunities.
+        </p>
+      </div>
+    </Col>
+
+    <Col lg={4} md={6}>
+      <div className="h-100 p-4 shadow-sm rounded bg-light">
+        <h4>🏭 Sustainable Industries</h4>
+        <p>
+          Industries create jobs, produce goods, and contribute to national
+          income. SDG 9 encourages industries to adopt environmentally
+          responsible practices that reduce pollution while increasing
+          productivity and economic growth.
+        </p>
+      </div>
+    </Col>
+
+    <Col lg={4} md={12}>
+      <div className="h-100 p-4 shadow-sm rounded bg-light">
+        <h4>💡 Innovation & Technology</h4>
+        <p>
+          Research, technology, and innovation help solve global challenges.
+          Investments in science and innovation lead to breakthroughs in
+          healthcare, agriculture, communication, and renewable energy.
+        </p>
+      </div>
+    </Col>
+  </Row>
+</div>
+
+<div className="container py-5">
+  <div className="row align-items-center g-4">
+    <div className="col-lg-6">
+      <h2 className="fw-bold mb-3" style={{
+        color:"white"
+      }}>
+        How SDG 9 Impacts Everyday Life
+      </h2>
+
+      <p  style={{
+        color:"white"
+      }}>
+        The benefits of SDG 9 can be seen in our daily lives. Better roads
+        reduce travel time, reliable internet enables digital learning and
+        remote work, and modern industries create employment opportunities.
+      </p>
+
+      <p  style={{
+        color:"white"
+      }}>
+        By investing in resilient infrastructure and innovation, countries can
+        strengthen their economies, improve living standards, and ensure that
+        technological progress benefits everyone.
+      </p>
+
+      <p  style={{
+        color:"white"
+      }}>
+        Achieving SDG 9 is essential for building inclusive societies where
+        people have access to opportunities regardless of their location or
+        background.
+      </p>
+    </div>
+
+    <div className="col-lg-6">
+      <div className="p-4 rounded shadow-sm bg-light">
+        <h4 className="mb-3">Key Focus Areas</h4>
+
+        <ul className="list-group">
+          <li className="list-group-item">
+            Expand affordable internet access
+          </li>
+          <li className="list-group-item">
+            Support small-scale industries and businesses
+          </li>
+          <li className="list-group-item">
+            Increase investment in research and development
+          </li>
+          <li className="list-group-item">
+            Improve transportation and logistics networks
+          </li>
+          <li className="list-group-item">
+            Promote environmentally sustainable industrialization
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+
     <Link to="/progress" className='align-items-center d-flex justify-content-center py-5'
     style={{
       textDecorationLine:"none"
