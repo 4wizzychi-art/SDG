@@ -25,7 +25,7 @@ const Hero = () => {
 }}>
 
 <div className='container d-flex flex-column align-items-center'>
-  <img src={SDG_icon} alt="sdg" className='img-fluid' style=
+  <img src={SDG_icon} alt="sdg" className='img-fluid'  loading="lazy" style=
   {{
 width:"21%",
 borderRadius:"0%",

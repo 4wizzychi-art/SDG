@@ -70,7 +70,7 @@ backgroundColor:"black",
                   style={{
                     fontSize: "40px",
                     fontFamily: "fantasy",
-                    color: "black",
+                color: "#F36D25",
                   }}
                 />
               </div>
@@ -90,7 +90,7 @@ backgroundColor:"black",
                   style={{
                     fontSize: "40px",
                     fontFamily: "fantasy",
-                    color: "black",
+                color: "#F36D25",
                   }}
                 />
               </div>
@@ -110,7 +110,7 @@ backgroundColor:"black",
                   style={{
                     fontSize: "40px",
                     fontFamily: "fantasy",
-                    color: "black",
+                color: "#F36D25",
                   }}
                 />
               </div>
@@ -159,7 +159,7 @@ backgroundColor:"black",
 
 
         <Broadband className="align-items-center d-flex justify-content-center" />
-        <Row className="mt-5">
+        <Row className="mt-5 g-3">
           <Col md={6}>
             <Carding cardTitle="2.0%+" className="target_card">
               <FaLightbulb
@@ -201,7 +201,7 @@ backgroundColor:"black",
       Key Takeaways
     </h2>
 
-    <ul
+    <ul className="g-4"
       style={{
         color: "white",
         fontSize: "18px",
