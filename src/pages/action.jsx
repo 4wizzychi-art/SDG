@@ -1,7 +1,7 @@
 import React from 'react'
-import Button from '../Components/button'
-import { Link } from 'react-router-dom'
-import { BiSolidRightArrowAlt } from 'react-icons/bi'
+// import Button from '../Components/button'
+// import { Link } from 'react-router-dom'
+// import { BiSolidRightArrowAlt } from 'react-icons/bi'
 
 const Action = () => {
   return (

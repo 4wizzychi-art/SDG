@@ -4,9 +4,9 @@ import CountUp from "react-countup";
 import Carding from "../Components/carding";
 import { FaChartLine, FaLightbulb } from "react-icons/fa6";
 import { Col, Row } from "react-bootstrap";
-import { Link } from "react-router-dom";
-import Button from "../Components/button";
-import { BiSolidRightArrowAlt } from "react-icons/bi";
+// import { Link } from "react-router-dom";
+// import Button from "../Components/button";
+// import { BiSolidRightArrowAlt } from "react-icons/bi";
 
 const Progress = () => {
   return (

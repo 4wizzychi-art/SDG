@@ -8,9 +8,7 @@ import { TbHeartRateMonitor } from 'react-icons/tb'
 import { FaBookReader } from 'react-icons/fa'
 import { IoIosWater } from 'react-icons/io'
 import { LiaIndustrySolid } from 'react-icons/lia'
-import Button from '../Components/button'
-import { Link } from 'react-router-dom'
-import { BiSolidRightArrowAlt } from 'react-icons/bi'
+// import { BiSolidRightArrowAlt } from 'react-icons/bi'
 
 const Target = () => {
   return (
