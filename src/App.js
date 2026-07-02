@@ -5,13 +5,16 @@ import { Route, Routes } from 'react-router-dom'
 import Progress from './pages/progress'
 import Action from './pages/action'
 import ScrollToTop from "./Components/ScrollToTop.jsx"
-
+import Navbar from './Components/Navbar.jsx'
+import 'bootstrap/dist/css/bootstrap.min.css'
+import 'bootstrap/dist/js/bootstrap.bundle.min.js'
+cd sdg
 const App = () => {
-  return (
-    <>
-      <ScrollToTop />
-
-      <Routes>
+return (
+  <>
+    <ScrollToTop />
+    <Navbar />
+    <Routes>
         <Route path="/" element={<Hero />} />
         <Route path="/target" element={<Target />} />
         <Route path="/progress" element={<Progress />} />

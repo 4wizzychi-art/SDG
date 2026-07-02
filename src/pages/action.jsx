@@ -6,7 +6,7 @@ import { BiSolidRightArrowAlt } from 'react-icons/bi'
 const Action = () => {
   return (
     <div style={{
-        backgroundColor:"black"
+        background:"radial-gradient(circle,rgba(199, 199, 199, 1) 11%, rgba(247, 247, 247, 1) 100%)"
     }}>
 
 <section className="container py-5">
@@ -149,25 +149,7 @@ const Action = () => {
     </div>
 
 </section>
-    <Link to="/progress" className='align-items-center d-flex justify-content-center py-5'
-    style={{
-      textDecorationLine:"none"
-    }}
-    >
-<Button  className="info_btn" style={{
-  // backgroundColor:"white",
-  color:"#F36D25",
-}}
-fontsize="20px"
-padding="9px 50px"
-btncolor="#F36D25"
-bgradius="32px"
->
-Back to Global Progress?
-<BiSolidRightArrowAlt className='info_arrow' />
 
-</Button>
-</Link>
 <section className="py-5 bg-light">
 
     <div className="container text-center">

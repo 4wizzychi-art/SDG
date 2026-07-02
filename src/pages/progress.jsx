@@ -12,7 +12,8 @@ const Progress = () => {
   return (
     <div
       style={{
-backgroundColor:"black",
+// backgroundColor:"black",
+background:"radial-gradient(circle,rgba(199, 199, 199, 1) 11%, rgba(247, 247, 247, 1) 100%)",
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
@@ -257,57 +258,6 @@ backgroundColor:"black",
   </p>
 </section>
 
-        <Row className=" g-3">
-          <Col md={6}>
-          <Link
-            to="/target"
-            className="align-items-center d-flex justify-content-center py-5"
-            style={{
-              textDecorationLine: "none",
-            }}
-          >
-            <Button
-              className="info_btn"
-              style={{
-                // backgroundColor:"white",
-                color: "#F36D25",
-              }}
-              fontsize="20px"
-              padding="9px 40px"
-              btncolor="#F36D25"
-              bgradius="32px"
-            >
-              Back to Targets?
-              <BiSolidRightArrowAlt className="info_arrow" />
-            </Button>
-          </Link>
-          </Col>
-         <Col md={6}>
-          <Link
-            to="/action"
-            className="align-items-center d-flex justify-content-center py-5"
-            style={{
-              textDecorationLine: "none",
-            }}
-          >
-            <Button
-              className="info_btn"
-              style={{
-                // backgroundColor:"white",
-                color: "#F36D25",
-              }}
-              fontsize="20px"
-              padding="9px 40px"
-              btncolor="#F36D25"
-              bgradius="32px"
-            >
-              Actions Taken
-              <BiSolidRightArrowAlt className="info_arrow" />
-            </Button>
-          </Link>
-         </Col>
-
-        </Row>
       </div>
       <section className="py-5 bg-light">
         <div className="container text-center">

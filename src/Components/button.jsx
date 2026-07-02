@@ -16,7 +16,7 @@ border:"none",
       borderRadius:bgradius,
       fontSize:fontsize
     }}>
-      {children}
+    {children}
     </button>
   )
 }

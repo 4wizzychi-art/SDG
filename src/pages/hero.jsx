@@ -5,55 +5,47 @@ import info_bg from '../images/info-bg.jpg'
 import SDG_icon from '../images/SDG_icon.png'
 import { Link } from 'react-router-dom'
 import { BiSolidRightArrowAlt } from 'react-icons/bi'
+import { Col, Row } from 'react-bootstrap'
 
 const Hero = () => {
   return (
 <div className='container-fluid m-0 p-0'  style={{
   backgroundImage:`url(${info_bg})`,
+  // background: "linear-gradient (to right, #F7F5F0, #FFFFFF)",
   backgroundSize: "fill",
   backgroundPosition: "center",
   backgroundRepeat: "no-repeat",
     width:"100%",
-  height:"100vh"
+  height:"80vh"
 }}>
-    <div className='d-flex align-items-start pt-5 justify-content-center' style={{
+    <div className='d-flex flex-column align-items-center pt-5 justify-content-center' style={{
   backgroundColor:"black",
   opacity:"80%",
   // backgroundPosition:"fixed",
   width:"100%",
-  height:"50vh",
+  height:"80vh",
 }}>
 
-<div className='container d-flex flex-column align-items-center'>
-  <img src={SDG_icon} alt="sdg" className='img-fluid'  loading="lazy" style=
+<div className='container d-flex flex-column align-items-center justify-content-center'>
+  <div className=' d-flex flex-column align-items-center justify-content-center'>
+    {/* <img src={SDG_icon} alt="sdg" className='img-fluid'  loading="lazy" style=
   {{
 width:"21%",
 borderRadius:"0%",
 height:"auto",
 // padding:"0px 20px"
-}} />
+}} /> */}
 <h1 style={{
   margin:"0%",
   fontSize:"40px",
   color:"#F36D25",
 }}>Sustainable Development Goal 9</h1>
-<p className='pt-4' style={{
+<p className='pt-4 d-flex align-items-center justify-content-center ' style={{
   fontStyle:"bold",
   color:"white",
 }}>Industry, Innovation, and Infrastructure — building resilient infrastructure, promoting inclusive and sustainable industrialization, and fostering innovation</p>
-</div>
-
-</div>
-<div >
-  <div className="d-flex justify-content-center align-items-start pt-5" style={{
-  backgroundColor:"black",
-  opacity:"80%",
-  width:"100%",
-  height:"50vh"
-
-}}>
-
-<Link to="/target" >
+  </div>
+<Link to="/target" className='' >
 <Button  className="info_btn" style={{
   // backgroundColor:"white",
   color:"#F36D25",
@@ -68,9 +60,101 @@ Learn More
 
 </Button>
 </Link>
+</div>
 
 </div>
+
+
+<div className="container py-5">
+
+  <div className="text-center mb-5">
+    <h2 className="fw-bold">Why SDG 9 Matters</h2>
+
+    <p
+      className="mx-auto text-muted"
+      style={{
+        maxWidth: "900px",
+        lineHeight: "1.8",
+      }}
+    >
+      SDG 9 aims to ensure that people have access to reliable transportation,
+      communication networks, modern industries, and innovative technologies.
+      By investing in infrastructure and encouraging innovation, societies can
+      create opportunities, reduce inequalities, and support sustainable
+      development for future generations.
+    </p>
+  </div>
+
+  <Row className="g-4 justify-content-center">
+
+    <Col lg={4} md={6}>
+      <div className="h-100 p-4 shadow-lg rounded bg-light">
+        <h4 className="mb-3">🛣️ Infrastructure</h4>
+        <p>
+          Reliable roads, bridges, energy systems, and communication networks
+          help connect people to essential services, markets, education, and
+          economic opportunities.
+        </p>
+      </div>
+    </Col>
+
+    <Col lg={4} md={6}>
+      <div className="h-100 p-4 shadow-lg rounded bg-light">
+        <h4 className="mb-3">🏭 Industrialization</h4>
+        <p>
+          Sustainable industrialization promotes economic growth, creates jobs,
+          and increases productivity while reducing environmental impact.
+        </p>
+      </div>
+    </Col>
+
+    <Col lg={4} md={12}>
+      <div className="h-100 p-4 shadow-lg rounded bg-light">
+        <h4 className="mb-3">💡 Innovation</h4>
+        <p>
+          Innovation drives progress through technology, research, and creative
+          solutions that improve lives and address global challenges.
+        </p>
+      </div>
+    </Col>
+
+  </Row>
+
 </div>
+
+
+<section className="py-5 bg-dark text-white">
+    <div className="container text-center">
+
+        <h2>Spread the Message</h2>
+
+        <p>
+            Share SDG 9 with your friends and network.
+        </p>
+
+        <div className="d-flex flex-wrap justify-content-center gap-3">
+
+            <button className="btn btn-primary">
+                Facebook
+            </button>
+
+            <button className="btn btn-info">
+                X
+            </button>
+
+            <button className="btn btn-secondary">
+                LinkedIn
+            </button>
+
+            <button className="btn btn-success">
+                Copy Link
+            </button>
+
+        </div>
+
+    </div>
+
+</section>
 
 </div>
   )
