@@ -8,7 +8,7 @@ import ScrollToTop from "./Components/ScrollToTop.jsx"
 import Navbar from './Components/Navbar.jsx'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap/dist/js/bootstrap.bundle.min.js'
-cd sdg
+
 const App = () => {
 return (
   <>
