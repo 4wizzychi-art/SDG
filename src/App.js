@@ -8,6 +8,7 @@ import ScrollToTop from "./Components/ScrollToTop.jsx"
 import Navbar from './Components/Navbar.jsx'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap/dist/js/bootstrap.bundle.min.js'
+import About from './pages/About.jsx'
 
 
 const App = () => {
@@ -17,6 +18,7 @@ return (
     <Navbar />
     <Routes>
         <Route path="/" element={<Hero />} />
+        <Route path="/about" element={<About />} />
         <Route path="/target" element={<Target />} />
         <Route path="/progress" element={<Progress />} />
         <Route path="/action" element={<Action />} />

@@ -88,7 +88,21 @@ transition: 0.5s ease-in-out;
 padding-bottom: 5px;
 }
 
-/* .nav-link:active {
-    color: white;
-    font-size: 28px;
-} */
+.footer-link{
+    list-style: none;
+   color: white;
+   text-decoration: none;
+}
+.footer-link:hover{
+    color: #F36D25;
+    /* text-decoration: none; */
+    transition: 0.3s ease-in-out;
+    padding-left: 5px;
+}
+
+@media (max-width: 768px) {
+.world{
+    width: 300px;
+    height: 200px;
+}
+    }

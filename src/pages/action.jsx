@@ -1,4 +1,5 @@
 import React from 'react'
+import Footer from '../Components/Footer'
 // import Button from '../Components/button'
 // import { Link } from 'react-router-dom'
 // import { BiSolidRightArrowAlt } from 'react-icons/bi'
@@ -150,39 +151,7 @@ const Action = () => {
 
 </section>
 
-<section className="py-5 bg-light">
-
-    <div className="container text-center">
-
-        <h2>Spread the Message</h2>
-
-        <p>
-            Share SDG 9 with your friends and network.
-        </p>
-
-        <div className="d-flex flex-wrap justify-content-center gap-3">
-
-            <button className="btn btn-primary">
-                Facebook
-            </button>
-
-            <button className="btn btn-info">
-                X
-            </button>
-
-            <button className="btn btn-secondary">
-                LinkedIn
-            </button>
-
-            <button className="btn btn-success">
-                Copy Link
-            </button>
-
-        </div>
-
-    </div>
-
-</section>
+<Footer />
     </div>
   )
 }

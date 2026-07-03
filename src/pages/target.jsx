@@ -8,6 +8,7 @@ import { TbHeartRateMonitor } from 'react-icons/tb'
 import { FaBookReader } from 'react-icons/fa'
 import { IoIosWater } from 'react-icons/io'
 import { LiaIndustrySolid } from 'react-icons/lia'
+import Footer from '../Components/Footer'
 // import { BiSolidRightArrowAlt } from 'react-icons/bi'
 
 const Target = () => {
@@ -339,39 +340,7 @@ const Target = () => {
 </div>
 
 
-<section className="py-5 bg-light">
-
-    <div className="container text-center">
-
-        <h2>Spread the Message</h2>
-
-        <p>
-            Share SDG 9 with your friends and network.
-        </p>
-
-        <div className="d-flex flex-wrap justify-content-center gap-3">
-
-            <button className="btn btn-primary">
-                Facebook
-            </button>
-
-            <button className="btn btn-info">
-                X
-            </button>
-
-            <button className="btn btn-secondary">
-                LinkedIn
-            </button>
-
-            <button className="btn btn-success">
-                Copy Link
-            </button>
-
-        </div>
-
-    </div>
-
-</section>
+<Footer />
    </div>
   )
 }

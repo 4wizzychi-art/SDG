@@ -5,7 +5,7 @@ import SDG_icon from '../images/SDG_icon.png'
 const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg" style={{
-      backgroundColor:"#CCCCCC"
+      backgroundColor:"white"
     }}>
       <div className="container d-flex justify-content-between">
 
@@ -35,6 +35,12 @@ const Navbar = () => {
             <li className="nav-item">
               <Link className="nav-link " to="/">
                 Home
+              </Link>
+            </li>
+
+         <li className="nav-item">
+              <Link className="nav-link " to="/about">
+                About
               </Link>
             </li>
 

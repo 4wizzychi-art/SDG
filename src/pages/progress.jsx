@@ -4,6 +4,7 @@ import CountUp from "react-countup";
 import Carding from "../Components/carding";
 import { FaChartLine, FaLightbulb } from "react-icons/fa6";
 import { Col, Row } from "react-bootstrap";
+import Footer from "../Components/Footer";
 // import { Link } from "react-router-dom";
 // import Button from "../Components/button";
 // import { BiSolidRightArrowAlt } from "react-icons/bi";
@@ -259,23 +260,7 @@ background:"radial-gradient(circle,rgba(199, 199, 199, 1) 11%, rgba(247, 247, 24
 </section>
 
       </div>
-      <section className="py-5 bg-light">
-        <div className="container text-center">
-          <h2>Spread the Message</h2>
-
-          <p>Share SDG 9 with your friends and network.</p>
-
-          <div className="d-flex flex-wrap justify-content-center gap-3">
-            <button className="btn btn-primary">Facebook</button>
-
-            <button className="btn btn-info">X</button>
-
-            <button className="btn btn-secondary">LinkedIn</button>
-
-            <button className="btn btn-success">Copy Link</button>
-          </div>
-        </div>
-      </section>
+<Footer />
     </div>
   );
 };

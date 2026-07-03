@@ -6,6 +6,7 @@ import info_bg from '../images/info-bg.jpg'
 import { Link } from 'react-router-dom'
 import { BiSolidRightArrowAlt } from 'react-icons/bi'
 import { Col, Row } from 'react-bootstrap'
+import Footer from '../Components/Footer'
 
 const Hero = () => {
   return (
@@ -16,36 +17,29 @@ const Hero = () => {
   backgroundPosition: "center",
   backgroundRepeat: "no-repeat",
     width:"100%",
-  height:"80vh"
+  height:"60vh"
 }}>
     <div className='d-flex flex-column align-items-center pt-5 justify-content-center' style={{
   backgroundColor:"black",
   opacity:"80%",
   // backgroundPosition:"fixed",
   width:"100%",
-  height:"80vh",
+  height:"60vh",
 }}>
 
-<div className='container d-flex flex-column align-items-center justify-content-center'>
-  <div className=' d-flex flex-column align-items-center justify-content-center'>
-    {/* <img src={SDG_icon} alt="sdg" className='img-fluid'  loading="lazy" style=
-  {{
-width:"21%",
-borderRadius:"0%",
-height:"auto",
-// padding:"0px 20px"
-}} /> */}
+<div className='container d-flex flex-column align-items-center'>
+  <div className=' d-flex flex-column align-items-center justify-content-start'>
 <h1 style={{
   margin:"0%",
-  fontSize:"40px",
+  // fontSize:"40px",
   color:"#F36D25",
 }}>Sustainable Development Goal 9</h1>
-<p className='pt-4 d-flex align-items-center justify-content-center ' style={{
+<p className='pt-4 d-flex align-items-center text-center justify-content-center ' style={{
   fontStyle:"bold",
   color:"white",
-}}>Industry, Innovation, and Infrastructure — building resilient infrastructure, promoting inclusive and sustainable industrialization, and fostering innovation</p>
+}}>Industry, Innovation, and Infrastructure — building resilient infrastructure, promoting inclusive<br /> and sustainable industrialization, and fostering innovation</p>
   </div>
-<Link to="/target" className='' >
+<Link to="/about" className='' >
 <Button  className="info_btn" style={{
   // backgroundColor:"white",
   color:"#F36D25",
@@ -123,39 +117,7 @@ Learn More
 </div>
 
 
-<section className="py-5 bg-dark text-white">
-    <div className="container text-center">
-
-        <h2>Spread the Message</h2>
-
-        <p>
-            Share SDG 9 with your friends and network.
-        </p>
-
-        <div className="d-flex flex-wrap justify-content-center gap-3">
-
-            <button className="btn btn-primary">
-                Facebook
-            </button>
-
-            <button className="btn btn-info">
-                X
-            </button>
-
-            <button className="btn btn-secondary">
-                LinkedIn
-            </button>
-
-            <button className="btn btn-success">
-                Copy Link
-            </button>
-
-        </div>
-
-    </div>
-
-</section>
-
+<Footer />
 </div>
   )
 }
