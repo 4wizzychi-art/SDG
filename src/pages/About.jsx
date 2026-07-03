@@ -1,5 +1,4 @@
 import React from 'react'
-import Navbar from '../Components/Navbar'
 import { Col, Row } from 'react-bootstrap'
 import world from '../images/World.png'
 import goal from '../images/goals.png'

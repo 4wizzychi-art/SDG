@@ -1,5 +1,5 @@
 import React from 'react'
-import info_bg from '../images/info-bg.jpg'
+// import info_bg from '../images/info-bg.jpg'
 import SDG_icon from '../images/SDG_icon.png'
 import { Col, Row } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
